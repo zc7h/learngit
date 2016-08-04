@@ -1,60 +1,61 @@
 
 
-¹¤×÷Çø -> git add -> Ôİ´æÇø -> git commit -> °æ±¾¿â -> git push -> Ô¶³Ì²Ö¿â
+å·¥ä½œåŒº -> git add -> æš‚å­˜åŒº -> git commit -> ç‰ˆæœ¬åº“ -> git push -> è¿œç¨‹ä»“åº“
 
-°æ±¾¿âHEAD±íÊ¾µ±Ç°°æ±¾£¬ÉÏÒ»¸ö°æ±¾HEAD^£¬ÉÏÉÏÒ»¸ö°æ±¾HEAD^^.......
+ç‰ˆæœ¬åº“HEADè¡¨ç¤ºå½“å‰ç‰ˆæœ¬ï¼Œä¸Šä¸€ä¸ªç‰ˆæœ¬HEAD^ï¼Œä¸Šä¸Šä¸€ä¸ªç‰ˆæœ¬HEAD^^.......
 
-ÅäÖÃ±¾»úgit
+é…ç½®æœ¬æœºgit
 git config --global user.name "abcd"
 git config --global user.email abcd@efgh.com
 
-gitÁ¬½Ó×Ô¼ºµÄgithub
-µÚÒ»²½£º´´½¨SSH_key: ssh-keygen -t rsa -C "aaadega@gmail.com",
-        ´´½¨³É¹¦ºó.sshÎÄ¼şÏÂµÄid_rsaÊÇË½Ô¿£¬id_rsa.pubÊÇ¹«Ô¿
-µÚ¶ş²½£ºµÇÂ½GitHub£¬´ò¿ª¡°Account settings¡±£¬¡°SSH Keys¡±Ò³Ãæ
-µÚÈı²½£ºÌí¼ÓSSH key£¬ÓÃ¹«Ô¿
+gitè¿æ¥è‡ªå·±çš„github
+ç¬¬ä¸€æ­¥ï¼šåˆ›å»ºSSH_key: ssh-keygen -t rsa -C "aaadega@gmail.com",
+        åˆ›å»ºæˆåŠŸå.sshæ–‡ä»¶ä¸‹çš„id_rsaæ˜¯ç§é’¥ï¼Œid_rsa.pubæ˜¯å…¬é’¥
+ç¬¬äºŒæ­¥ï¼šç™»é™†GitHubï¼Œæ‰“å¼€â€œAccount settingsâ€ï¼Œâ€œSSH Keysâ€é¡µé¢
+ç¬¬ä¸‰æ­¥ï¼šæ·»åŠ SSH keyï¼Œç”¨å…¬é’¥
 
-Ò»ÇĞ´Ó°æ±¾¿âÍ¬²½µ½Ô¶³ÌµÄgit¶¼ÓĞunameºÍpword²Ù×÷push
-ÆäËû¶¼ÊÇ´Ó±¾µØÖ±½ÓÇĞ»»²Ù×÷
+ä¸€åˆ‡ä»ç‰ˆæœ¬åº“åŒæ­¥åˆ°è¿œç¨‹çš„gitéƒ½æœ‰unameå’Œpwordæ“ä½œpush
+å…¶ä»–éƒ½æ˜¯ä»æœ¬åœ°ç›´æ¥åˆ‡æ¢æ“ä½œ
+dfdfd
 
-Ò»¶¨Òª´Ó×Ô¼ºµÄÕËºÅÏÂclone²Ö¿â£¬ÕâÑùÄã²ÅÄÜÍÆËÍĞŞ¸Ä¡£ÏÈforkÔÙclone
+ä¸€å®šè¦ä»è‡ªå·±çš„è´¦å·ä¸‹cloneä»“åº“ï¼Œè¿™æ ·ä½ æ‰èƒ½æ¨é€ä¿®æ”¹ã€‚å…ˆforkå†clone
 
-git init ³õÊ¼»¯´ËÎÄ¼ş¼ĞÎª°æ±¾¿â
-git add readme.txt ½«ÎÄ¼ş´Ó¹¤×÷ÇøÌí¼Óµ½Ôİ´æÇø
-git checkout -- readme.txt ³·Ïú¹¤×÷ÇøÎÄ¼şµÄĞŞ¸Ä
-git commit -m "this is commit" ½«ÎÄ¼ş´ÓÔİ´æÇøÌá½»µ½°æ±¾¿â
-git reset HEAD ´ÓÔİ´æÇø»ØÍËµ½¹¤×÷Çø
-git diff ²é¿´¹¤×÷ÇøÎÄ¼şĞŞ¸ÄÇ°ºóµÄ²îÒì
-git status ²é¿´¹¤×÷ÇøÓëÔİ´æÇøµÄÎÄ¼şĞŞ¸Ä×´Ì¬
-git log ²é¿´Ìá½»ÈÕÖ¾
+git init åˆå§‹åŒ–æ­¤æ–‡ä»¶å¤¹ä¸ºç‰ˆæœ¬åº“
+git add readme.txt å°†æ–‡ä»¶ä»å·¥ä½œåŒºæ·»åŠ åˆ°æš‚å­˜åŒº
+git checkout -- readme.txt æ’¤é”€å·¥ä½œåŒºæ–‡ä»¶çš„ä¿®æ”¹
+git commit -m "this is commit" å°†æ–‡ä»¶ä»æš‚å­˜åŒºæäº¤åˆ°ç‰ˆæœ¬åº“
+git reset HEAD ä»æš‚å­˜åŒºå›é€€åˆ°å·¥ä½œåŒº
+git diff æŸ¥çœ‹å·¥ä½œåŒºæ–‡ä»¶ä¿®æ”¹å‰åçš„å·®å¼‚
+git status æŸ¥çœ‹å·¥ä½œåŒºä¸æš‚å­˜åŒºçš„æ–‡ä»¶ä¿®æ”¹çŠ¶æ€
+git log æŸ¥çœ‹æäº¤æ—¥å¿—
 git log --pretty=oneline
-git reset --hard HEAD^ »ØÍËµ½ÉÏÒ»°æ±¾
-git reflog    ²é¿´ÃüÁîÀúÊ·
-git remote add origin url ÎªÔ¶³ÌGit¸üÃûÎªorigin
-git push -u origin master Ê×´ÎÍÆËÍ´Ë´ÎĞŞ¸Ä
-git push origin master È»ºó¿ÉÒÔ²»¼Ó-u
-git clone url ¿ËÂ¡Ò»¸öÔ¶³Ì¿âµ½±¾µØ
-git branch page ´´½¨ĞÂ·ÖÖ§
-git checkout page Ñ¡ÔñĞÂ·ÖÖ§
-git checkout -b page Ïàµ±ÓÚÉÏÃæÁ½ÌõÒ»Æğ
-git branch ²é¿´·ÖÖ§
-git merge page ºÏ²¢·ÖÖ§pageµ½master£¬checkoutµ½master·ÖÖ§
-git merge page --no-ff -m "plain" ½ûÓÃFast forward
-git branch -d[D] page É¾³ı·ÖÖ§page£¬É¾³ıÇ°ÏÈÇĞ»»µ½master·ÖÖ§[DÇ¿ĞĞÉ¾³ı]
-git push origin :page  É¾³ıÔ¶³Ì·ÖÖ§page
-cat read.txt   ²é¿´ÎÄ¼şÄÚÈİ£¨³åÍ»£©
-git log --graph ²é¿´·ÖÖ§ºÏ²¢Çé¿ö
-git log --graph --pretty=oneline --abbrev-commit  ²é¿´×î½ü·ÖÖ§ºÏ²¢Çé¿ö
-git stash Òş²Øµ±Ç°¹¤×÷Çø
-git stath list ²é¿´Òş²ØµÄ¹¤×÷Çø
-git stash apply stash{0} »Ö¸´Òş²ØµÄ¹¤×÷Çø£¬²»»áÉ¾³ıstash
-git stash drop É¾³ıstash
-git stash pop stash{0} »Ö¸´Òş²ØµÄ¹¤×÷Çø£¬Ò»²¢É¾³ıstash
-git remote -v ²é¿´Ô¶³Ì¿âĞÅÏ¢
-git pull À­È¡×îĞÂ·ÖÖ§
-git branch --set-upstream branchName origin/branchName Ö¸¶¨±¾µØÓëÔ¶³ÌÖ®¼äµÄÁ´½Ó
-git tag <name>  ¿ÉÒÔ´òÒ»¸öĞÂ±êÇ©
-git tag   ²é¿´ËùÓĞ±êÇ©
-git tag name id  ´ò±êÇ©
--aÖ¸¶¨±êÇ©Ãû£¬-mÖ¸¶¨ËµÃ÷ÎÄ×Ö
-git show <tagname>¿ÉÒÔ¿´µ½ËµÃ÷ÎÄ×Ö
+git reset --hard HEAD^ å›é€€åˆ°ä¸Šä¸€ç‰ˆæœ¬
+git reflog    æŸ¥çœ‹å‘½ä»¤å†å²
+git remote add origin url ä¸ºè¿œç¨‹Gitæ›´åä¸ºorigin
+git push -u origin master é¦–æ¬¡æ¨é€æ­¤æ¬¡ä¿®æ”¹
+git push origin master ç„¶åå¯ä»¥ä¸åŠ -u
+git clone url å…‹éš†ä¸€ä¸ªè¿œç¨‹åº“åˆ°æœ¬åœ°
+git branch page åˆ›å»ºæ–°åˆ†æ”¯
+git checkout page é€‰æ‹©æ–°åˆ†æ”¯
+git checkout -b page ç›¸å½“äºä¸Šé¢ä¸¤æ¡ä¸€èµ·
+git branch æŸ¥çœ‹åˆ†æ”¯
+git merge page åˆå¹¶åˆ†æ”¯pageåˆ°masterï¼Œcheckoutåˆ°masteråˆ†æ”¯
+git merge page --no-ff -m "plain" ç¦ç”¨Fast forward
+git branch -d[D] page åˆ é™¤åˆ†æ”¯pageï¼Œåˆ é™¤å‰å…ˆåˆ‡æ¢åˆ°masteråˆ†æ”¯[Då¼ºè¡Œåˆ é™¤]
+git push origin :page  åˆ é™¤è¿œç¨‹åˆ†æ”¯page
+cat read.txt   æŸ¥çœ‹æ–‡ä»¶å†…å®¹ï¼ˆå†²çªï¼‰
+git log --graph æŸ¥çœ‹åˆ†æ”¯åˆå¹¶æƒ…å†µ
+git log --graph --pretty=oneline --abbrev-commit  æŸ¥çœ‹æœ€è¿‘åˆ†æ”¯åˆå¹¶æƒ…å†µ
+git stash éšè—å½“å‰å·¥ä½œåŒº
+git stath list æŸ¥çœ‹éšè—çš„å·¥ä½œåŒº
+git stash apply stash{0} æ¢å¤éšè—çš„å·¥ä½œåŒºï¼Œä¸ä¼šåˆ é™¤stash
+git stash drop åˆ é™¤stash
+git stash pop stash{0} æ¢å¤éšè—çš„å·¥ä½œåŒºï¼Œä¸€å¹¶åˆ é™¤stash
+git remote -v æŸ¥çœ‹è¿œç¨‹åº“ä¿¡æ¯
+git pull æ‹‰å–æœ€æ–°åˆ†æ”¯
+git branch --set-upstream branchName origin/branchName æŒ‡å®šæœ¬åœ°ä¸è¿œç¨‹ä¹‹é—´çš„é“¾æ¥
+git tag <name>  å¯ä»¥æ‰“ä¸€ä¸ªæ–°æ ‡ç­¾
+git tag   æŸ¥çœ‹æ‰€æœ‰æ ‡ç­¾
+git tag name id  æ‰“æ ‡ç­¾
+-aæŒ‡å®šæ ‡ç­¾åï¼Œ-mæŒ‡å®šè¯´æ˜æ–‡å­—
+git show <tagname>å¯ä»¥çœ‹åˆ°è¯´æ˜æ–‡å­—
